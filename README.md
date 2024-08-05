@@ -12,7 +12,7 @@ Generate a VPK file using the python script **vpk_generator.py** and copy the ge
 - Modifications can be made to **custom_vpk\particles\rockettrail.pcf** and the generator should still work if the attribute: **`Remap Distance Between Two Control Points to Scalar`** remains (largely) untouched.
 - Sounds should also be able to be bundled into the VPK, although this is untested.
 - The trail is not perfect (except at 0 ping), so expect it to be more of a guideline.
-- The circle is way bigger at higher fov's, especially in first person, so be aware of that.
+- The circle is way bigger at lower fov's, especially in first person, so be aware of that.
 
 ## Credits
 1. The original trail created by soop | [Link](https://www.youtube.com/watch?v=C5735HWVj9s)
