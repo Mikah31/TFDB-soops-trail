@@ -3,7 +3,7 @@ This is a recreation of soop's smart trail and coupled with a generator, as the 
 The trail will seem off at times, especially when the rocket is slow or at higher pings. \
 It is sadly not possible to compensate for the velocity of the rocket so a happy medium has to be found for every speed.
 ### Example image
-![example](https://github.com/Mikah31/TFDB-soops-trails/blob/main/example.png?raw=true)
+![example](https://github.com/Mikah31/TFDB-soops-trail/blob/main/example.png?raw=true)
 
 ## Installation
 Generate a VPK file using the python script **vpk_generator.py** and copy the generated VPK into: **Team Fortress 2\tf\custom**
