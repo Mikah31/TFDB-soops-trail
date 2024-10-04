@@ -5,8 +5,13 @@ It is sadly not possible to compensate for the velocity of the rocket so a happy
 ### Example image
 ![example](https://github.com/Mikah31/TFDB-soops-trail/blob/main/example.png?raw=true)
 
+## Generating VPK
+Install the requirements with **``pip install -r requirements.txt``** \
+Generate a VPK with **``python vpk_generator.py -p PING``** \
+Where **PING** is latency + interp.
+
 ## Installation
-Generate a VPK file using the python script **vpk_generator.py** and copy the generated VPK into: **Team Fortress 2\tf\custom**
+After generating a VPK file using the python script **vpk_generator.py** copy the generated VPK into: **Team Fortress 2\tf\custom**
 
 ## Notes
 - Modifications can be made to **custom_vpk\particles\rockettrail.pcf** and the generator should still work if the attribute: **`Remap Distance Between Two Control Points to Scalar`** remains (largely) untouched.
