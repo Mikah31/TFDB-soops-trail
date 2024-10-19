@@ -8,7 +8,7 @@ It is sadly not possible to compensate for the velocity of the rocket so a happy
 ## Generating VPK
 Install the requirements with **``pip install -r requirements.txt``** \
 Generate a VPK with **``python vpk_generator.py -p PING``** \
-Where **PING** is latency + interp.
+Where **PING** is latency + interp (from net_graph) in milliseconds.
 
 ## Installation
 After generating a VPK file using the python script **vpk_generator.py** copy the generated VPK into: **Team Fortress 2\tf\custom**
